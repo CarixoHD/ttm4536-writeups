@@ -1,0 +1,15 @@
+name: "Shellcode 3"
+category: "pwn"
+description: |
+  Is this even possible?
+
+  IMPORTANT: the container is temporary. When you disconnect, everything you have done will be deleted. 
+flags:
+  - "flag{1c102c59cb7d9c8236202b705a51ad76}"
+value: 18
+handout: shellcode.zip
+hosted: true
+connect: socat -,raw,echo=0 TCP:{host}:{port}
+ephemeral: true
+tags:
+  - "hard"

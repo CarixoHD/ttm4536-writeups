@@ -1,0 +1,15 @@
+.git
+__pycache__/
+node_modules/
+dist/
+build/
+venv/
+.pwnvenv/
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+.DS_Store
+challenge.yml
+handout/

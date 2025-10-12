@@ -1,0 +1,11 @@
+name: "how2libc"
+category: "pwn"
+description: |
+  It's time to learn some ret2libc!
+flags:
+  - "flag{25ea51dad62b6f7b4edf411c4a9c790e}"
+value: 14
+handout: how2libc-handout.zip 
+hosted: true
+tags:
+  - "medium"

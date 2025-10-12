@@ -1,0 +1,16 @@
+name: "Shellcode 2"
+category: "pwn"
+description: |
+  This time you have limited space
+
+  IMPORTANT: the container is temporary. When you disconnect, everything you have done will be deleted. 
+
+flags:
+  - "flag{dde221ba8f61b7cf6c074bc828058829}"
+value: 14
+handout: shellcode.zip
+hosted: true
+connect: socat -,raw,echo=0 TCP:{host}:{port}
+ephemeral: true
+tags:
+  - "medium"

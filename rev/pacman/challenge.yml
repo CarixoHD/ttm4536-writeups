@@ -1,0 +1,11 @@
+name: "Pacman"
+category: "reverse engineering"
+description: |
+  Lol. What can you do? The program doesn't do anything.
+flags:
+  - "flag{f4da2ac5d313249bf3cde137047c9c38}"
+value: 14
+handout: src/pacman
+hosted: false
+tags:
+  - "medium"

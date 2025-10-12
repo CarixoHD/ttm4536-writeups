@@ -1,0 +1,11 @@
+name: "licence-checker-1"
+category: "reverse engineering"
+description: |
+  I will verify your licence keys!
+flags:
+  - "flag{359b6e2f2cf87ba5d58d1ca308613d5b}"
+value: 12
+handout: licence-checker.zip 
+hosted: true
+tags:
+  - "easy"

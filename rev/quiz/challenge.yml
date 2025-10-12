@@ -1,0 +1,11 @@
+name: "quiz"
+category: "reverse engineering"
+description: |
+  Time for a pop quiz!
+flags:
+  - "flag{597e6e4397d53a59c79c9a96f1b5957e}"
+value: 12
+handout: quiz.zip  
+hosted: true
+tags:
+  - "easy"

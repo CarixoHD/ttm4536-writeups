@@ -1,0 +1,11 @@
+name: "Todo"
+category: "pwn"
+description: |
+  Now I can finally keep track on what I must do. Number 1: make a safe notes app
+flags:
+  - "flag{ad7c9b9ad75b4a6ef992f252c882568f}"
+value: 18
+handout: todo-handout.zip
+hosted: true
+tags:
+  - "hard"

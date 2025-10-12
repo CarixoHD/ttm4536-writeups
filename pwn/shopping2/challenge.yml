@@ -1,0 +1,11 @@
+name: "Shopping2"
+category: "pwn"
+description: |
+  This time PIE is enabled, good luck hacking this!
+flags:
+  - "flag{b6515513b53192c0368665159cc2d920}"
+value: 14
+handout: shopping2-handout.zip 
+hosted: true
+tags:
+  - "medium"

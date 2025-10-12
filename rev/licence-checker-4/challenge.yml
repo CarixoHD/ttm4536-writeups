@@ -1,0 +1,11 @@
+name: "licence-checker-4"
+category: "reverse engineering"
+description: |
+  The final boss
+flags:
+  - "flag{7f2bbca5ec873ba6108996d48f112ec4}"
+value: 18
+handout: licence-checker.zip 
+hosted: true
+tags:
+  - "hard"

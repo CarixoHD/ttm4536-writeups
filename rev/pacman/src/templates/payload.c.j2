@@ -1,0 +1,63 @@
+#include <unistd.h> 
+#include <stdint.h>
+#include <sys/syscall.h>
+
+#define __do_syscall0(NUM) ({                \
+    intptr_t rax;                            \
+    __asm__ volatile(                        \
+        "syscall"                            \
+        : "=a"(rax)  /* %rax */              \
+        : "a"(NUM)   /* %rax */              \
+        : "rcx", "r11", "memory"             \
+    );                                       \
+    rax;                                     \
+})
+
+#define __do_syscall1(NUM, ARG1) ({          \
+    intptr_t rax;                            \
+    __asm__ volatile(                        \
+        "syscall"                            \
+        : "=a"(rax)                          \
+        : "a"((NUM)),                        \
+          "D"((ARG1))                        \
+        : "rcx", "r11", "memory"             \
+    );                                       \
+    rax;                                     \
+})
+
+#define __do_syscall2(NUM, ARG1, ARG2) ({    \
+    intptr_t rax;                            \
+    __asm__ volatile(                        \
+        "syscall"                            \
+        : "=a"(rax)                          \
+        : "a"((NUM)),                        \
+          "D"((ARG1)),                       \
+          "S"((ARG2))                        \
+        : "rcx", "r11", "memory"             \
+    );                                       \
+    rax;                                     \
+})
+
+#define __do_syscall3(NUM, ARG1, ARG2, ARG3) ({   \
+    intptr_t rax;                                 \
+    __asm__ volatile(                             \
+        "syscall"                                 \
+        : "=a"(rax)                               \
+        : "a"((NUM)),                             \
+          "D"((ARG1)),                            \
+          "S"((ARG2)),                            \
+          "d"((ARG3))                             \
+        : "rcx", "r11", "memory"                  \
+    );                                            \
+    rax;                                          \
+})
+
+void main(void) {
+    char input[0x40] = {0};
+    char flag_loc[] = "inp_flag.txt";
+    char correct[] = "Flag is valid!";
+    int fd = __do_syscall3(SYS_open, flag_loc, 0, 0);
+    __do_syscall3(SYS_read, fd, input, sizeof(input));
+    {{FLAG_CHECK}}
+    __do_syscall3(SYS_write, 1, correct, sizeof(correct));
+}
