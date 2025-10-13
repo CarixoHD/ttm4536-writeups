@@ -12,4 +12,3 @@ I will verify your licence keys!
 - **Handout:** [licence-checker.zip](./licence-checker.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

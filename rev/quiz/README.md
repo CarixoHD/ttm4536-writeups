@@ -14,4 +14,3 @@ Time for a pop quiz!
 - **Handout:** [quiz.zip](./quiz.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

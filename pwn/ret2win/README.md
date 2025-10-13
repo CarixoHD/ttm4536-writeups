@@ -12,4 +12,3 @@ return to what?
 - **Handout:** [ret2win-handout.zip](./ret2win-handout.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

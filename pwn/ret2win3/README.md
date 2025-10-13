@@ -12,4 +12,3 @@ What is win?
 - **Handout:** [ret2win3-handout.zip](./ret2win3-handout.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

@@ -12,4 +12,3 @@ This time PIE is enabled, good luck hacking this!
 - **Handout:** [shopping2-handout.zip](./shopping2-handout.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

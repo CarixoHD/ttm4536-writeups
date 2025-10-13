@@ -12,4 +12,3 @@ Lol. What can you do? The program doesn't do anything.
 - **Handout:** [src/pacman](./src/pacman)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)

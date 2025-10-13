@@ -14,4 +14,3 @@ IMPORTANT: the container is temporary. When you disconnect, everything you have 
 - **Handout:** [shellcode.zip](./shellcode.zip)
 - **Writeup:** [solution/README.md](./solution/README.md)
 - **Solve:** [solution/solve.py](./solution/solve.py)
-- **Source:** [src](./src)
