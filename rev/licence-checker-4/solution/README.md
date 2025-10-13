@@ -1,4 +1,4 @@
-# Writeup licence-checker4
+# Licence-checker-4
 
 Author: `misi`
 
@@ -76,7 +76,6 @@ The highlighted part, shows the first 95 local_18 structs that is stored in the 
 We can assume that `FUN_001016ec` is the function that will do some mangling to our input, as it is the last function called in the original function that is deduced to mangle our input. It also takes in our input as one of its arguments. 
 
 **WILL BE UPDATED**  
-
 
 
 

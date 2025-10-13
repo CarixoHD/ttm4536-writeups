@@ -1,4 +1,4 @@
-# Shellcode3 writeup
+# Shellcode3
 
 Author: `misi`
 
@@ -62,4 +62,3 @@ p.recvuntil("shellcode: ")
 p.sendline(asm_code)
 p.interactive()
 ```
-

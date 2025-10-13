@@ -1,4 +1,4 @@
-# Shellcode2 writeup
+# Shellcode2
 
 Author: `misi`
 

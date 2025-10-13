@@ -1,5 +1,8 @@
 # Todo
+
 Author: `Carixo`
+
+---
 
 ## Introduction
 This challenge ships a stack-based todo manager that stores up to 32 notes inside a single `TodoList` structure that lives on `main`'s stack.

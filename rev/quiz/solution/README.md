@@ -1,4 +1,4 @@
-# Writeup quiz
+# Quiz
 
 Author: `misi`
 

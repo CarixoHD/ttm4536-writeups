@@ -1,4 +1,4 @@
-# Writeup licence-checker-1
+# Licence-checker-1
 
 Author: `misi`
 

@@ -1,3 +1,9 @@
+# Pacman
+
+Author: `Carixo`
+
+---
+
 One can:
 - Run `strace` on the binary and see that the `open` syscall is called on a "inp_flag.txt". Then hook on the `open` syscall and see where it is called (`_fini`). Break on `_fini` and let the decryption run. Either dump the function and analyze it in e.g. Ghidra, or just look at the assembly. It checks each byte of the flag using "if" statements, so just extract the bytes it compares.
 - Open Ghidra and look at all the decompiled function. See that `_fini` looks weird and from there break on `_fini` and continue as explained above.

@@ -1,5 +1,8 @@
-# Ret2win writeup
+# Ret2win
+
 Author: `misi`
+
+---
 ### Reversing
 In this challenge we are given a binary file. To reverse this I will use ghidra.  
 First I will do checksec on the binary to see which security measures is enabled.

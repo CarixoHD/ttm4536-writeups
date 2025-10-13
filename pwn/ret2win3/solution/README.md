@@ -1,5 +1,8 @@
-# ret2win3 writeup
+# Ret2win3
+
 Author: `misi`
+
+---
 ### Reversing
 First I do a checksec on the given binary to figure out the security features enabled.  
 
