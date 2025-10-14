@@ -10,5 +10,5 @@ It's time to learn some ret2libc!
 
 ## Resources
 - **Handout:** [how2libc-handout.zip](./how2libc-handout.zip)
-- **Writeup:** [solution/README.md](./solution/README.md)
+<!--- - **Writeup:** [solution/README.md](./solution/README.md) --->
 - **Solve:** [solution/solve.py](./solution/solve.py)
